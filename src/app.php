@@ -4,10 +4,44 @@ use Symfony\Component\Routing;
 
 $routes = new Routing\RouteCollection();
 
-$routes->add('home', new Routing\Route('/'));
+$routes->add('home', new Routing\Route('/', [
+	
+	'_controller' => function($request){
 
-$routes->add('about', new Routing\Route('/about'));
+		$response = render_template($request);
 
-$routes->add('blog', new Routing\Route('/blog/{title}', ['title' => 'All articles']));
+		$response->headers->set('Content-Type', 'text/html');
+
+		return $response;
+	}
+]));
+
+$routes->add('about', new Routing\Route('/about', [
+	
+	'_controller' => function($request){
+
+		$response = render_template($request);
+
+		$response->headers->set('Content-Type', 'text/html');
+
+		return $response;
+	}
+]));
+
+$routes->add('blog', new Routing\Route('/blog/{slug}', [
+	
+	'slug' => null,
+
+	'_controller' => function($request){
+
+		$request->attributes->set('title', 'All Articles');
+
+		$response = render_template($request);
+
+		$response->headers->set('Content-Type', 'text/html');
+
+		return $response;
+	}
+]));
 
 return $routes;
