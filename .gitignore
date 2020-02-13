@@ -1,0 +1,4 @@
+access.log
+error.log
+/vendor
+.DS_Store
