@@ -6,7 +6,10 @@ if (is_file($autoloader = dirname(__DIR__) . '/vendor/autoload.php')) {
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Controller\ControllerResolver;
+use Symfony\Component\HttpKernel\Controller\ArgumentResolver;
 use Symfony\Component\Routing;
+use App\Framework\Framework;
 
 function render_template($request)
 {
@@ -21,23 +24,19 @@ $request = Request::createFromGlobals();
 $routes = include dirname(__DIR__) . '/src/app.php';
 
 $context = new Routing\RequestContext();
-$context->fromRequest($request);
 $matcher = new Routing\Matcher\UrlMatcher($routes, $context);
 
-try
-{
-	$request->attributes->add( $matcher->match( $request->getPathInfo() ) );
-	$response = call_user_func($request->attributes->get('_controller'), $request);
-}
-catch (Routing\Exception\ResourceNotFoundException $exception)
-{
-	$response = new Response('Not Found', 404);
-}
-catch (Exception $exception)
-{
-	$response = new Response('An error occured', 500);
-}
+$controllerResolver = new ControllerResolver();
+$argumentResolver = new ArgumentResolver();
+
+$framework = new Framework($matcher, $controllerResolver, $argumentResolver);
+$response = $framework->handle($request);
 
 $response->send();
 
 ?>
+
+
+<pre>
+<?php var_dump(  ) ?>
+</pre>
