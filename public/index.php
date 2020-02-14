@@ -11,17 +11,8 @@ use Symfony\Component\HttpKernel\Controller\ArgumentResolver;
 use Symfony\Component\Routing;
 use App\Framework\Framework;
 
-function render_template($request)
-{
-	extract( $request->attributes->all(), EXTR_SKIP );
-	ob_start();
-	include sprintf( dirname(__DIR__) . '/src/pages/%s.php', $_route );
-	
-	return new Response(ob_get_clean());
-}
-
 $request = Request::createFromGlobals();
-$routes = include dirname(__DIR__) . '/src/app.php';
+$routes = include dirname(__DIR__) . '/src/App/Routes.php';
 
 $context = new Routing\RequestContext();
 $matcher = new Routing\Matcher\UrlMatcher($routes, $context);
@@ -35,8 +26,3 @@ $response = $framework->handle($request);
 $response->send();
 
 ?>
-
-
-<pre>
-<?php var_dump(  ) ?>
-</pre>

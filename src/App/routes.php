@@ -28,6 +28,13 @@ $routes->add('about', new Routing\Route('/about', [
 	}
 ]));
 
+$routes->add('project', new Routing\Route('/project/{projectSlug}', [
+	
+	'projectSlug' => null,
+
+	'_controller' => 'App\Controller\Project::index'
+]));
+
 $routes->add('blog', new Routing\Route('/blog/{slug}', [
 	
 	'slug' => null,
