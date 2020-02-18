@@ -4,17 +4,17 @@ namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use App\Model\BlogData;
+use App\Model\Project;
 
-class Blog
+class ProjectController
 {
 	public function index(Request $request)
 	{
-		$slug = htmlspecialchars( $request->attributes->get('blogSlug'), ENT_QUOTES, 'UTF-8');
+		$slug = htmlspecialchars( $request->attributes->get('projectSlug'), ENT_QUOTES, 'UTF-8');
 
-		$blogData = BlogData::getblog( $slug );
+		$projectData["content"] = (new Project)->getProjectBySlug( $slug );
 
-		$response = $this->render_template( $request, $blogData );
+		$response = $this->render_template( $request, $projectData );
 
 		$response->headers->set('Content-Type', 'text/html');
 

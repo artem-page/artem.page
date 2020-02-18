@@ -1,14 +1,7 @@
-<p>
-	<?= $args["title"] ?>
-</p>
+<?php include_once 'snippets/header.php' ?>
 
-<p>
-	<?= $args["description"] ?>
-</p>
+<h1><?= $content->title ?></h1>
 
-<p>
-	<?= $args["content"] ?>
-</p>
 
 
 <!--
@@ -18,3 +11,5 @@
 ?>
 </pre>
 -->
+
+<?php include_once 'snippets/footer.php' ?>

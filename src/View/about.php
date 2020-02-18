@@ -1,12 +1,5 @@
-<p>
-	<?= $args["title"] ?>
-</p>
+<?php include_once 'snippets/header.php' ?>
 
-<p>
-	<?= $args["description"] ?>
-</p>
+About
 
-<p>
-	<?= $args["content"] ?>
-</p>
-
+<?php include_once 'snippets/footer.php' ?>

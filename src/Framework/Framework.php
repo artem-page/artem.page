@@ -7,6 +7,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Controller\ControllerResolver;
 use Symfony\Component\HttpKernel\Controller\ArgumentResolver;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
+use Symfony\Component\Routing\Exception\Exception;
 use Symfony\Component\Routing\Matcher\UrlMatcher;
 
 class Framework
@@ -38,7 +39,7 @@ class Framework
 			return call_user_func($controller, $request);
 
 
-		} catch (Routing\Exception\ResourceNotFoundException $exception) {
+		} catch (ResourceNotFoundException $exception) {
 			$response = new Response('Not Found', 404);
 		} catch (Exception $exception) {
 			$response = new Response('An error occured', 500);

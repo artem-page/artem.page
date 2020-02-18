@@ -4,15 +4,15 @@ namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use App\Model\HomeData;
+use App\Model\Home;
 
-class Home
+class HomeController
 {
 	public function index(Request $request)
 	{
 		$slug = htmlspecialchars( $request->attributes->get('homeSlug'), ENT_QUOTES, 'UTF-8');
 
-		$homeData = HomeData::gethome( $slug );
+		$homeData["content"] = (new Home)->getHomeMeta();
 
 		$response = $this->render_template( $request, $homeData );
 

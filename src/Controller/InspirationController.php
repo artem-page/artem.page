@@ -4,17 +4,17 @@ namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use App\Model\ProjectData;
+use App\Model\Inspiration;
 
-class Project
+class InspirationController
 {
 	public function index(Request $request)
 	{
-		$slug = htmlspecialchars( $request->attributes->get('projectSlug'), ENT_QUOTES, 'UTF-8');
+		$slug = htmlspecialchars( $request->attributes->get('inspSlug'), ENT_QUOTES, 'UTF-8');
 
-		$projectData = ProjectData::getProject( $slug );
+		$inspData = Inspiration::getInspiration( $slug );
 
-		$response = $this->render_template( $request, $projectData );
+		$response = $this->render_template( $request, $inspData );
 
 		$response->headers->set('Content-Type', 'text/html');
 
