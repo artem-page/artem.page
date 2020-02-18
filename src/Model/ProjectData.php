@@ -5,11 +5,12 @@ namespace App\Model;
 class ProjectData
 {
 
-	public static function getProject($projectSlug)
+	public static function getProject($slug)
 	{
 		$data = [
-			"slug" => $projectSlug,
+			"slug" => $slug,
 			"title" => "Project Title",
+			"description" => "Project Description",
 			'content' => "Project Content"
 		];
 

@@ -1,6 +1,15 @@
-Slug: <?= htmlspecialchars($slug, ENT_QUOTES, 'UTF-8') ?>
+<p>
+	<?= $args["title"] ?>
+</p>
 
-<br>
+<p>
+	<?= $args["description"] ?>
+</p>
 
-<?= $title ?>
+<p>
+	<?= $args["content"] ?>
+</p>
 
+<!--
+Slug: <?= htmlspecialchars($blogSlug, ENT_QUOTES, 'UTF-8') ?>
+-->

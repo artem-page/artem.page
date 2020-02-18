@@ -6,26 +6,14 @@ $routes = new Routing\RouteCollection();
 
 $routes->add('home', new Routing\Route('/', [
 	
-	'_controller' => function($request){
+	'_controller' => 'App\Controller\Home::index'
 
-		$response = render_template($request);
-
-		$response->headers->set('Content-Type', 'text/html');
-
-		return $response;
-	}
 ]));
 
 $routes->add('about', new Routing\Route('/about', [
 	
-	'_controller' => function($request){
+	'_controller' => 'App\Controller\About::index'
 
-		$response = render_template($request);
-
-		$response->headers->set('Content-Type', 'text/html');
-
-		return $response;
-	}
 ]));
 
 $routes->add('project', new Routing\Route('/project/{projectSlug}', [
@@ -33,22 +21,15 @@ $routes->add('project', new Routing\Route('/project/{projectSlug}', [
 	'projectSlug' => null,
 
 	'_controller' => 'App\Controller\Project::index'
+
 ]));
 
-$routes->add('blog', new Routing\Route('/blog/{slug}', [
+$routes->add('blog', new Routing\Route('/blog/{blogSlug}', [
 	
-	'slug' => null,
+	'blogSlug' => null,
 
-	'_controller' => function($request){
-
-		$request->attributes->set('title', 'All Articles');
-
-		$response = render_template($request);
-
-		$response->headers->set('Content-Type', 'text/html');
-
-		return $response;
-	}
+	'_controller' => 'App\Controller\Blog::index'
+	
 ]));
 
 return $routes;
