@@ -15,12 +15,15 @@
 
     <title><?= $content->title ?></title>
 
+    <!--Custom CSS -->
     <style type="text/css">
-      * {
-        font-family: 'Source Sans Pro', sans-serif;
-      }
+        <?php require_once 'css/css-default.php' ?>
+        <?php require_once 'css/css-sm.php' ?>
+        <?php require_once 'css/css-md.php' ?>
+        <?php require_once 'css/css-lg.php' ?>
+        <?php require_once 'css/css-xl.php' ?>
     </style>
-
+    
     <!-- SEO meta tags -->
     <meta name="description" content="<?= $content->description ?>">
 
