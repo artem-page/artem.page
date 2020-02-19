@@ -23,8 +23,20 @@
 		height: 60vh;
 	}
 
-	input, textarea, select {
-		outline: none;
+	input, textarea, select, btn-link:hover, btn-link:focus, btn-link:active {
+		outline:0px !important;
 		border:1px solid #ccc !important;
 		box-shadow:none !important;
+	}
+
+	.projects-font {
+		font-family: 'Righteous', cursive;
+	}
+
+	.blog-font {
+		font-family: 'Permanent Marker', cursive;
+	}
+
+	.inspiration-font {
+		font-family: 'Black Ops One', cursive;
 	}
