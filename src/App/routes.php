@@ -16,6 +16,12 @@ $routes->add('about', new Routing\Route('/about', [
 
 ]));
 
+$routes->add('contact', new Routing\Route('/contact', [
+	
+	'_controller' => 'App\Controller\ContactController::index'
+
+]));
+
 $routes->add('project', new Routing\Route('/project/{projectSlug}', [
 	
 	'projectSlug' => null,

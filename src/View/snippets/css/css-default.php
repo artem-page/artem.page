@@ -40,3 +40,21 @@
 	.inspiration-font {
 		font-family: 'Black Ops One', cursive;
 	}
+
+	nav.navbar {
+        transform: scaleY(1) translateY(0);
+        transition: all 0.6s ease-in-out 0s;
+        z-index: 99;
+    }
+
+    .text-logo {
+    	letter-spacing: -1px;
+	}
+
+	.navbar-transparency {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";       /* IE 8 */
+		filter: alpha(opacity=70);  /* IE 5-7 */
+		-moz-opacity: 0.7;          /* Netscape */
+		-khtml-opacity: 0.7;        /* Safari 1.x */
+		opacity: 0.7;               /* Good browsers */
+	}

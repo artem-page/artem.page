@@ -9,7 +9,7 @@
 		<div class="col-md-12">
 
 			<p>
-				About
+				Contact
 			</p>
 
 		</div>

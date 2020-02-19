@@ -5,12 +5,12 @@ namespace App\Model;
 use PDO;
 use App\DB\Database;
 
-class About
+class Contact
 {
 
 	private $connection;
 
-	private $db_table = "about";
+	private $db_table = "contact";
 
 	public $id;
 	public $title;

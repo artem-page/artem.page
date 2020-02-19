@@ -10,7 +10,11 @@
 		</div>
 
 		<div class="d-flex justify-content-center">
-	  		<p class="h3 font-weight-bold p-0 m-0">Artem.page</p>
+	  		<p class="h3 font-weight-bold p-0 m-0 text-logo">
+	  			<a href="/" class="text-dark text-decoration-none">
+	  				Artem.page
+	  			</a>
+	  		</p>
 		</div>
 
 		<div class="d-flex justify-content-end">
@@ -58,18 +62,96 @@
 	      	</div>
 
 	      </div>
+
+		<div class="container border-top">
+
+			<div class="row pt-5">
+
+				<div class="col-md-6">
+
+		      		<p class="h3 font-weight-bold p-0 m-0 text-logo text-white">
+		      			<a href="/" class="text-white text-decoration-none">
+		      				Artem.page
+		      			</a>
+		      		</p>
+
+				</div>
+
+				<div class="col-md-6">
+
+		      		<p class="font-weight-bold text-white float-md-right">
+		      			<span class="pr-3 align-middle">
+		      				<a href="/about" class="text-white text-decoration-none">
+		      					About
+		      				</a>
+		      			</span>
+		      			<span class="pr-3 align-middle">
+		      				<a href="/contact" class="text-white text-decoration-none">
+		      					Contact
+		      				</a>
+		      			</span>
+		      		</p>
+
+				</div>
+
+			</div>
+
+			<div class="row pt-3 pb-3">
+
+				<div class="col-md-6">
+
+
+
+				</div>
+
+				<div class="col-md-6">
+
+		      		<p class="text-white float-md-right">
+		      			<span class="pr-2 align-middle">
+		      				<a href="https://linkedin.com/in/rumiantsev" rel="noopener" target="_blank" class="text-white"><i class="fab fa-linkedin-in fa-lg"></i></a>
+		      			</span>
+		      			<span class="pr-2 align-middle">
+		      				<a href="https://codepen.io/artem_page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-codepen fa-lg"></i></a>
+		      			</span>
+		      			<span class="pr-2 align-middle">
+		      				<a href="https://github.com/artem-page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-github fa-lg"></i></a>
+		      			</span>
+		      			<span class="pr-2 align-middle">
+		      				<a href="https://twitter.com/artem_page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+		      			</span>
+		      			<span class="pr-2 align-middle">
+		      				<a href="https://instagram.com/artem.page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+		      			</span>
+		      			<span class="pr-2 align-middle">
+		      				<a href="https://www.facebook.com/artem.page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+		      			</span>		 
+		      			<span class="pr-2 align-middle">
+		      				<a href="https://www.youtube.com/channel/UCRihv4lcxXDd01vUukIFp5w" rel="noopener" target="_blank" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+		      			</span>	     			
+		      		</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
 	    </div>
 	  </div>
 	</div>
 
 	<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalTitle" aria-hidden="true">
 	  <div class="modal-fullscreen modal-dialog" role="document">
+	    
 	    <div class="modal-content p-0 m-0 border-0 rounded-0 bg-dark">
 	      <div class="modal-header border-0 p-5">
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true"><i class="fas fa-times fa-lg text-white"></i></span>
 	        </button>
 	      </div>
+	      
 	      <div class="modal-body">
 	        
 	      	<div class="container">
@@ -103,6 +185,8 @@
 	      	</div>
 
 	      </div>
+
 	    </div>
+
 	  </div>
 	</div>
