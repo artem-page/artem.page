@@ -58,3 +58,9 @@
 		-khtml-opacity: 0.7;        /* Safari 1.x */
 		opacity: 0.7;               /* Good browsers */
 	}
+
+	/* Homepage */
+
+	.text-cover {
+		background-color: #f4f4f4;
+	}

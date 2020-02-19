@@ -10,19 +10,19 @@
 				
 				<div class="col-md-6">
 					
-					<img src="/images/cover.jpg" class="card-img rounded-0" alt="">
+					<img src="/images/cover.jpg" class="card-img card-img-cover rounded-0" alt="">
 				
 				</div>
 				
-				<div class="col-md-6 p-sm-2 p-md-2 pt-lg-3 pt-xl-4" style="background-color: #f4f4f4;">
+				<div class="col-md-6 pl-sm-2 pt-sm-2 pl-md-2 pt-md-2 pl-lg-4 pt-lg-4 pt-xl-4 text-cover">
 					
-					<div class="card-body p-sm-2 p-md-2 pt-lg-3 pt-xl-3">
+					<div class="card-body pt-sm-2 pt-md-2 pt-lg-3 pt-xl-3">
 
 						<div class="p-xl-5">
 						
 							<h1 class="card-title font-weight-bold">Hello.</h1>
 								
-							<h4 class="card-text text-secondary font-weight-normal pt-xs-1 pt-sm-1 pt-md-1 pt-lg-2 pt-xl-2">
+							<h4 class="card-text text-secondary text-front font-weight-normal pt-xs-1 pt-sm-1 pt-md-1 pt-lg-2 pt-xl-2">
 								I'm Artem Rumiantsev, a web developer and a web project co-ordinator. I work at the intersection of business, design and technology. 
 							</h4>
 								
