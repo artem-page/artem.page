@@ -80,7 +80,7 @@
 		  <div class="card col-md-6 col-lg-4 p-3 border-0">
 		    <img class="card-img-top rounded-0" src="/images/project-zaneen-new-website.jpg" alt="">
 		    <div class="card-body">
-		      <h3 class="card-title font-weight-bold">Zaneen.com Portal</h3>
+		      <h3 class="card-title font-weight-bold">Zaneen Web Portal</h3>
 		      <p class="card-text">The previous website was morally outdated and no longer met the needs of the business. Requirements for the new development included integration with the business system Netsuite, advanced product filter, product configurator, and a personal account for a sales representative.</p>
 		      <p class="card-text">
 		      	<small class="text-muted">
