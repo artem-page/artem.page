@@ -28,7 +28,7 @@
 								
 							<p class="card-text pt-xs-1 pt-sm-1 pt-md-1 pt-lg-2 pt-xl-2">
 								<small class="text-muted">
-									<a href="#" class="text-danger text-decoration-none p-0 m-0 font-weight-normal">
+									<a href="/about" class="text-danger text-decoration-none p-0 m-0 font-weight-normal">
 										Read More <i class="fas fa-arrow-right pl-2"></i>
 									</a>
 								</small>
