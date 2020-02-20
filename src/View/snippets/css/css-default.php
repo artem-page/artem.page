@@ -64,3 +64,10 @@
 	.text-cover {
 		background-color: #f4f4f4;
 	}
+
+	.card-img-cover {
+		width: 100%;
+		min-height: 90vw;
+		object-position: right;
+		object-fit: cover;
+	}

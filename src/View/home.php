@@ -50,24 +50,38 @@
 
 		<div class="row pt-5">
 
-			<div class="col-md-12">
+			<div class="col-sm-6 d-flex align-items-end">
 
 	      		<h2 class="pt-4">
-	      			<a href="#" class="text-dark text-decoration-none projects-font">Projects</a>
+	      			<span class="text-dark text-decoration-none projects-font">Recent Projects</span>
+	      		</h2>
+
+			</div>
+
+			<div class="col-sm-6">
+
+	      		<h2 class="pt-4 float-sm-right">
+	      			<a href="/projects" class="btn btn-lg btn-outline-dark text-decoration-none rounded-0 font-weight-bolder" role="button">All Projects</a>
 	      		</h2>
 
 			</div>
 
 		</div>
 
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
 
-		<div class="row pt-5">
 
-		  <div class="card col-md-6 col-lg-4 p-2 border-0">
-		    <img class="card-img-top rounded-0" src="https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=70" alt="Card image cap">
+		<div class="row pt-1">
+
+		  <div class="card col-md-6 col-lg-4 p-3 border-0">
+		    <img class="card-img-top rounded-0" src="/images/project-zaneen-new-website.jpg" alt="">
 		    <div class="card-body">
 		      <h3 class="card-title font-weight-bold">Zaneen.com Portal</h3>
-		      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		      <p class="card-text">The previous website was morally outdated and no longer met the needs of the business. Requirements for the new development included integration with the business system Netsuite, advanced product filter, product configurator, and a personal account for a sales representative.</p>
 		      <p class="card-text">
 		      	<small class="text-muted">
 					<a href="#" class="text-danger text-decoration-none p-0 m-0 font-weight-normal">
@@ -78,11 +92,11 @@
 		    </div>
 		  </div>
 
-		  <div class="card col-md-6 col-lg-4 p-2 border-0">
-		    <img class="card-img-top" src="https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=70" alt="Card image cap">
+		  <div class="card col-md-6 col-lg-4 p-3 border-0">
+		    <img class="card-img-top rounded-0" src="/images/project-spec.jpg" alt="">
 		    <div class="card-body">
 		      <h3 class="card-title font-weight-bold">Spec Sheet Generator</h3>
-		      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+		      <p class="card-text">This is a one-page application that collects product data and allows the user to save the product specification as a pdf or print it out. It was created as a backup source of information in addition to the existing company website.</p>
 		      <p class="card-text">
 		      	<small class="text-muted">
 					<a href="#" class="text-danger text-decoration-none p-0 m-0 font-weight-normal">
@@ -93,11 +107,11 @@
 		    </div>
 		  </div>
 
-		  <div class="card col-md-6 col-lg-4 p-2 border-0">
-		    <img class="card-img-top" src="https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=70" alt="Card image cap">
+		  <div class="card col-md-6 col-lg-4 p-3 border-0">
+		    <img class="card-img-top rounded-0" src="/images/project-zst.jpg" alt="">
 		    <div class="card-body">
 		      <h3 class="card-title font-weight-bold">Zaneen Sample Tour</h3>
-		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+		      <p class="card-text">The application for logistic operations. Allows Zaneen to manage the shipping and receiving of sample cases, report and fix problems, as well as to communicate with the participating agencies.</p>
 		      <p class="card-text">
 		      	<small class="text-muted">
 					<a href="#" class="text-danger text-decoration-none p-0 m-0 font-weight-normal">

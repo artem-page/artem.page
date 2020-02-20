@@ -22,7 +22,7 @@ $routes->add('contact', new Routing\Route('/contact', [
 
 ]));
 
-$routes->add('project', new Routing\Route('/project/{projectSlug}', [
+$routes->add('projects', new Routing\Route('/projects/{projectSlug}', [
 	
 	'projectSlug' => null,
 
