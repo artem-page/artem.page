@@ -1,8 +1,34 @@
 <?php include_once 'snippets/header.php' ?>
 
-<h1><?= $content->title ?></h1>
+<?php include_once 'snippets/navbar.php' ?>
 
+<div class="container">
 
+	<div class="row d-flex justify-content-center">
+
+		<div class="col-md-8 pt-5 pb-5">
+
+			<h1 class="font-weight-bold text-center"><?= $content->title ?></h1>
+
+			<p class="h5 text-secondary text-center"><?= $content->description ?></p>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="container-fluid bg-ultra-grey">
+
+	<div class="row d-flex justify-content-center pt-md-5">
+
+		<div class="card col-md-8 text-white border-0 p-0 m-0 rounded-0">
+			<img src="/images/<?= $content->img_cover ?>" class="card-img rounded-0" alt="">
+		</div>
+
+	</div>
+
+</div>
 
 <!--
 <pre>

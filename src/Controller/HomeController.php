@@ -5,6 +5,7 @@ namespace App\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use App\Model\Home;
+use App\Model\Project;
 
 class HomeController
 {
@@ -13,6 +14,7 @@ class HomeController
 		$slug = htmlspecialchars( $request->attributes->get('homeSlug'), ENT_QUOTES, 'UTF-8');
 
 		$homeData["content"] = (new Home)->getHomeMeta();
+		$homeData["projects"] = (new Project)->getHomePageProjects();
 
 		$response = $this->render_template( $request, $homeData );
 

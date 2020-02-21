@@ -46,4 +46,5 @@ $routes->add('inspiration', new Routing\Route('/inspiration/{inspSlug}', [
 	
 ]));
 
+
 return $routes;

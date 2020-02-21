@@ -3,6 +3,11 @@
 		font-family: 'Source Sans Pro', sans-serif;
 	}
 
+	html, body {
+        height: 100%;
+        padding-top: 40px;
+    }
+
 	/* Navbar */
 
 	.modal-fullscreen {
@@ -43,7 +48,7 @@
 
 	nav.navbar {
         transform: scaleY(1) translateY(0);
-        transition: all 0.6s ease-in-out 0s;
+        transition: all 0.8s ease-in-out 0s;
         z-index: 99;
     }
 
@@ -52,11 +57,19 @@
 	}
 
 	.navbar-transparency {
+		
+		border-bottom: 1px solid #c9d6df;
+
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";       /* IE 8 */
 		filter: alpha(opacity=70);  /* IE 5-7 */
 		-moz-opacity: 0.7;          /* Netscape */
 		-khtml-opacity: 0.7;        /* Safari 1.x */
 		opacity: 0.7;               /* Good browsers */
+		
+        -webkit-transition:padding 0.4s linear;
+        -moz-transition:padding 0.4s linear;
+        -o-transition:padding 0.4s linear;
+        transition:padding 0.4s linear;
 	}
 
 	/* Homepage */
@@ -71,3 +84,9 @@
 		object-position: right;
 		object-fit: cover;
 	}
+
+	/* Projects */
+
+	.bg-ultra-grey {
+        background-color: #52616b;
+    }

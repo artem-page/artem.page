@@ -1,5 +1,5 @@
 	
-	<nav class="navbar d-flex flex-row bd-highlight sticky-top pt-4 pb-4 bg-white">
+	<nav class="navbar d-flex flex-row bd-highlight fixed-top pt-4 pb-4 bg-white">
 	<div class="container">
 		<div class="d-flex justify-content-start">
 

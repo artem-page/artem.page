@@ -12,9 +12,18 @@ class ProjectController
 	{
 		$slug = htmlspecialchars( $request->attributes->get('projectSlug'), ENT_QUOTES, 'UTF-8');
 
-		$projectData["content"] = (new Project)->getProjectBySlug( $slug );
+		if (!$slug || $slug == null) 
+		{
 
-		$response = $this->render_template( $request, $projectData );
+			//$projectData["content"] = (new Project)->getProjectsMeta();
+			$projectData["projects"] = (new Project)->getAllProjects();
+			$response = $this->render_template_all( $request, $projectData );
+
+		} else 
+		{
+			$projectData["content"] = (new Project)->getProjectBySlug( $slug );
+			$response = $this->render_template( $request, $projectData );
+		}
 
 		$response->headers->set('Content-Type', 'text/html');
 
@@ -30,6 +39,19 @@ class ProjectController
 		ob_start();
 
 		include sprintf( dirname(__DIR__) . '/../src/View/%s.php', $_route );
+		
+		return new Response(ob_get_clean());
+	}
+
+	function render_template_all($request, array $args)
+	{
+		extract( $args );
+
+		extract( $request->attributes->all(), EXTR_SKIP );
+
+		ob_start();
+
+		include sprintf( dirname(__DIR__) . '/../src/View/%s_all.php', $_route );
 		
 		return new Response(ob_get_clean());
 	}
