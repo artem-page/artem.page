@@ -48,9 +48,6 @@
 		      				<a href="https://linkedin.com/in/rumiantsev" rel="noopener" target="_blank" class="text-white"><i class="fab fa-linkedin-in fa-lg"></i></a>
 		      			</span>
 		      			<span class="pr-2 align-middle">
-		      				<a href="https://codepen.io/artem_page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-codepen fa-lg"></i></a>
-		      			</span>
-		      			<span class="pr-2 align-middle">
 		      				<a href="https://github.com/artem-page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-github fa-lg"></i></a>
 		      			</span>
 		      			<span class="pr-2 align-middle">
@@ -59,12 +56,7 @@
 		      			<span class="pr-2 align-middle">
 		      				<a href="https://instagram.com/artem.page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
 		      			</span>
-		      			<span class="pr-2 align-middle">
-		      				<a href="https://www.facebook.com/artem.page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
-		      			</span>		 
-		      			<span class="pr-2 align-middle">
-		      				<a href="https://www.youtube.com/channel/UCRihv4lcxXDd01vUukIFp5w" rel="noopener" target="_blank" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
-		      			</span>	     			
+
 		      		</p>
 
 				</div>
