@@ -18,6 +18,7 @@ class Project
 	public $slug;
 	public $img_thumb;
 	public $img_cover;
+	public $country;
 
 	function __construct()
 	{
@@ -43,10 +44,9 @@ class Project
 
 	public function getHomePageProjects()
 	{
-		$this->slug = $slug;
 
 		$stmt = $this->connection->prepare("SELECT * FROM " . $this->db_table . " ORDER BY pub_date DESC LIMIT 3");
-		$stmt->execute(array(':slg' => $slug));
+		$stmt->execute();
 		$result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 		return $result;
@@ -54,12 +54,19 @@ class Project
 
 	public function getAllProjects()
 	{
-		$this->slug = $slug;
 
 		$stmt = $this->connection->prepare("SELECT * FROM " . $this->db_table . " ORDER BY pub_date DESC");
-		$stmt->execute(array(':slg' => $slug));
+		$stmt->execute();
 		$result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
+		return $result;
+	}
+
+	public function getProjectsByCountry($country)
+	{
+		$stmt = $this->connection->prepare("SELECT * FROM " . $this->db_table . " WHERE country = :cntr ORDER BY pub_date DESC");
+		$stmt->execute(array(':cntr' => $country));
+		$result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 		return $result;
 	}
 

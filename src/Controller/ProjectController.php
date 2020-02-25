@@ -16,7 +16,9 @@ class ProjectController
 		{
 
 			//$projectData["content"] = (new Project)->getProjectsMeta();
-			$projectData["projects"] = (new Project)->getAllProjects();
+			$projectData["projects"]["all"] = (new Project)->getAllProjects();
+			$projectData["projects"]["ca"] = (new Project)->getProjectsByCountry("ca");
+			$projectData["projects"]["ua"] = (new Project)->getProjectsByCountry("ua");
 			$response = $this->render_template_all( $request, $projectData );
 
 		} else 
