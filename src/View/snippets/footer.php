@@ -35,13 +35,13 @@
 
 			<div class="row pt-3 pb-3">
 
-				<div class="col-md-6">
+				<div class="col-md-8">
 
-
+					<p class="text-white">I'm a full-stack web developer and a project coordinator  based in Toronto. I create custom  websites and web applications. PHP, JavaScript, jQuery, HTML, CSS, Bootstrap, MySQL, Oracle, Python, Bash, Git. VPS, Ubuntu, Apache. Netsuite, Shopify, Wordpress. Agile, Scrum. Photoshop, Illustrator, Sketch. I can also coordinate complex software development projects with multiple stakeholders. </p>
 
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-md-4">
 
 		      		<p class="text-white float-md-right">
 		      			<span class="pr-2 align-middle">

@@ -23,7 +23,7 @@
 							<h1 class="card-title font-weight-bold">Hello.</h1>
 								
 							<h4 class="card-text text-secondary text-front font-weight-normal pt-xs-1 pt-sm-1 pt-md-1 pt-lg-2 pt-xl-2">
-								I'm Artem Rumiantsev, a full-stack web developer and a web project coordinator. I work at the intersection of business, design and technology. 
+								I'm Artem Rumiantsev, a full-stack web developer and a project coordinator. I work at the intersection of business, design and technology. 
 							</h4>
 								
 							<p class="card-text pt-xs-1 pt-sm-1 pt-md-1 pt-lg-2 pt-xl-2">

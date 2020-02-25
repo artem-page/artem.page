@@ -108,3 +108,7 @@
     	border-bottom: 2px solid #000000 !important;
     	font-weight: 600;
 	}
+
+	.fa-canadian-maple-leaf {
+		color: #FF0000;
+	}

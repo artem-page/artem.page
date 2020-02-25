@@ -27,7 +27,7 @@
 			    <a class="nav-link-projects nav-link text-dark active" id="allprojects-tab" data-toggle="tab" href="#allprojects" role="tab" aria-controls="allprojects" aria-selected="true">All</a>
 			  </li>
 			  <li class="nav-item">
-			    <a class="nav-link-projects nav-link text-dark" id="ca-projects-tab" data-toggle="tab" href="#ca-projects" role="tab" aria-controls="ca-projects" aria-selected="false">Canada</a>
+			    <a class="nav-link-projects nav-link text-dark" id="ca-projects-tab" data-toggle="tab" href="#ca-projects" role="tab" aria-controls="ca-projects" aria-selected="false">Canada <i class="fab fa-canadian-maple-leaf"></i></a>
 			  </li>
 			  <li class="nav-item">
 			    <a class="nav-link-projects nav-link text-dark" id="ua-projects-tab" data-toggle="tab" href="#ua-projects" role="tab" aria-controls="ua-projects" aria-selected="false">Ukraine</a>
