@@ -1,5 +1,11 @@
 
 	@media (min-width: 992px) {
+		
+		/* Navbar */
+
+		.menu-none {
+			display: inline !important;
+		}
 
 		/* Homepage */
 

@@ -6,7 +6,7 @@
 
 		<div class="card p-0 m-0 border-0 rounded-0">
 			
-			<div class="row no-gutters">
+			<div class="row no-gutters text-cover">
 				
 				<div class="col-md-6">
 					
@@ -14,7 +14,7 @@
 				
 				</div>
 				
-				<div class="col-md-6 pl-sm-2 pt-sm-2 pl-md-2 pt-md-2 pl-lg-4 pt-lg-4 pt-xl-4 text-cover">
+				<div class="col-md-6 pl-sm-2 pt-sm-2 pl-md-2 pt-md-2 pl-lg-4 pt-lg-4 pt-xl-4 my-auto">
 					
 					<div class="card-body pt-sm-2 pt-md-2 pt-lg-3 pt-xl-3">
 
@@ -23,7 +23,7 @@
 							<h1 class="card-title font-weight-bold">Hello.</h1>
 								
 							<h4 class="card-text text-secondary text-front font-weight-normal pt-xs-1 pt-sm-1 pt-md-1 pt-lg-2 pt-xl-2">
-								I'm Artem Rumiantsev, a web developer and a web project co-ordinator. I work at the intersection of business, design and technology. 
+								I'm Artem Rumiantsev, a full-stack web developer and a web project coordinator. I work at the intersection of business, design and technology. 
 							</h4>
 								
 							<p class="card-text pt-xs-1 pt-sm-1 pt-md-1 pt-lg-2 pt-xl-2">
@@ -75,7 +75,7 @@
 		</div>
 
 
-		<div class="row pt-1">
+		<div class="row pt-1 pb-5">
 
 		<?php foreach($projects as $p) : ?>
 

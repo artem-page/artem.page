@@ -4,14 +4,14 @@
 		<div class="d-flex justify-content-start">
 
 			<button type="button" class="btn btn-link text-dark text-decoration-none p-0 m-0" data-toggle="modal" data-target="#menuModal">
-				<i class="fas fa-bars"></i>
+				<i class="fas fa-bars"></i> <span class="text-uppercase font-weight-bold pl-2 menu-none">Menu</span>
 			</button>
 
 		</div>
 
 		<div class="d-flex justify-content-center">
 	  		<p class="h3 font-weight-bold p-0 m-0 text-logo">
-	  			<a href="/" class="text-dark text-decoration-none">
+	  			<a href="/" class="text-dark text-decoration-none ml-md-n5">
 	  				Artem.page
 	  			</a>
 	  		</p>
@@ -111,9 +111,6 @@
 		      				<a href="https://linkedin.com/in/rumiantsev" rel="noopener" target="_blank" class="text-white"><i class="fab fa-linkedin-in fa-lg"></i></a>
 		      			</span>
 		      			<span class="pr-2 align-middle">
-		      				<a href="https://codepen.io/artem_page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-codepen fa-lg"></i></a>
-		      			</span>
-		      			<span class="pr-2 align-middle">
 		      				<a href="https://github.com/artem-page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-github fa-lg"></i></a>
 		      			</span>
 		      			<span class="pr-2 align-middle">
@@ -122,12 +119,7 @@
 		      			<span class="pr-2 align-middle">
 		      				<a href="https://instagram.com/artem.page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
 		      			</span>
-		      			<span class="pr-2 align-middle">
-		      				<a href="https://www.facebook.com/artem.page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
-		      			</span>
-		      			<span class="pr-2 align-middle">
-		      				<a href="https://www.youtube.com/channel/UCRihv4lcxXDd01vUukIFp5w" rel="noopener" target="_blank" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
-		      			</span>
+
 		      		</p>
 
 				</div>

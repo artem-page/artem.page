@@ -10,15 +10,20 @@
 
 	/* Navbar */
 
+	.menu-none {
+		display: none !important;
+	}
+
 	.modal-fullscreen {
-	    max-width: 100%;
+	    max-width: 100vw;
+	    height: 100vh;
 	    margin: 0;
 	    top: 0;
 	    bottom: 0;
 	    left: 0;
 	    right: 0;
-	    height: 100vh;
 	    display: flex;
+	    overflow: hidden;
 	}
 
 	.search-container {
@@ -48,8 +53,9 @@
 
 	nav.navbar {
         transform: scaleY(1) translateY(0);
-        transition: all 0.8s ease-in-out 0s;
+		transition: max-height 8s ease-in-out, box-shadow 8s ease-in-out, -webkit-box-shadow 8s ease-in-out;
         z-index: 99;
+        will-change: max-height, box-shadow;
     }
 
     .text-logo {
@@ -81,6 +87,7 @@
 	.card-img-cover {
 		width: 100%;
 		min-height: 90vw;
+		height: 100%;
 		object-position: right;
 		object-fit: cover;
 	}
@@ -90,3 +97,14 @@
 	.bg-ultra-grey {
         background-color: #52616b;
     }
+
+    .nav-link-projects {
+    	border-top: none !important;
+    	border-right: none !important;
+    	border-left: none !important;
+	}
+
+    .nav-link-projects.active {
+    	border-bottom: 2px solid #000000 !important;
+    	font-weight: 600;
+	}

@@ -1,6 +1,12 @@
 
 	@media (min-width: 768px) {
 
+		/* Navbar */
+
+		.menu-none {
+			display: inline !important;
+		}
+		
 		/* Homepage */
 
 		.text-front {
