@@ -37,7 +37,7 @@
 
 				<div class="col-md-8">
 
-					<p class="text-white">I'm a full-stack web developer and a project coordinator  based in Toronto. I create custom  websites and web applications. PHP, JavaScript, jQuery, HTML, CSS, Bootstrap, MySQL, Oracle, Python, Bash, Git. VPS, Ubuntu, Apache. Netsuite, Shopify, Wordpress. Agile, Scrum. Photoshop, Illustrator, Sketch. I can also coordinate complex software development projects with multiple stakeholders. </p>
+					<p class="text-white">I'm a full-stack web developer and a project coordinator  based in Toronto. I create custom  websites and web applications. I use PHP, JavaScript, jQuery, HTML, CSS, Bootstrap, MySQL, Oracle, Python, Bash, Git. VPS, Ubuntu, Apache. Netsuite, Shopify, Wordpress. Agile, Scrum. Photoshop, Illustrator, Sketch. I can also coordinate complex software development projects with multiple stakeholders. </p>
 
 				</div>
 
