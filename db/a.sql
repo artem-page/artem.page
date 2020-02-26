@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Feb 25, 2020 at 02:20 PM
+-- Generation Time: Feb 26, 2020 at 10:40 AM
 -- Server version: 5.7.29-0ubuntu0.18.04.1
 -- PHP Version: 7.2.24-0ubuntu0.18.04.3
 
@@ -42,6 +42,31 @@ INSERT INTO `home` (`id`, `title`, `description`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `pages`
+--
+
+CREATE TABLE `pages` (
+  `id` int(11) NOT NULL,
+  `route` varchar(256) NOT NULL,
+  `title` varchar(60) DEFAULT NULL,
+  `description` varchar(160) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `pages`
+--
+
+INSERT INTO `pages` (`id`, `route`, `title`, `description`) VALUES
+(1, 'home', NULL, 'A website of a passionate web developer and a project coordinator. I\'ve worked on various projects involving both web development and project coordination.'),
+(2, 'about', 'About', 'I\'m a software developer. I can work in a team of programmers or be a project coordinator.'),
+(3, 'contact', 'Contact', 'Say hello, I would be happy to hear from you'),
+(4, 'projects', 'Projects', 'The most meaningful digital projects'),
+(5, 'blog', 'Blog', 'My blog where I document and share my observations'),
+(6, 'inspiration', 'Inspiration', 'Things that inspire me, may also inspire you');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `projects`
 --
 
@@ -61,7 +86,7 @@ CREATE TABLE `projects` (
 --
 
 INSERT INTO `projects` (`id`, `pub_date`, `title`, `description`, `country`, `slug`, `img_thumb`, `img_cover`) VALUES
-(1, '2013-02-04', 'Banki.ua Portal', 'The website appeared as an attempt of Banki.ru Group to expand their business to the Ukrainian market. The project was an aggregator of banking services. Users could follow the news, get full information about any of the banks, as well as apply for a loan.', 'ua', 'bankiua-portal', 'project-bankiua.jpg', ''),
+(1, '2013-02-04', 'Banki.ua Portal', 'The website appeared as an attempt of Banki.ru Group to expand their business to the Ukrainian market. The project was an aggregator of banking services. Users could follow the news, get full information about any Ukrainian bank, as well as apply for a loan.', 'ua', 'bankiua-portal', 'project-bankiua.jpg', ''),
 (2, '2014-11-07', 'Finbase.com.ua Portal', 'The project was created simultaneously with the growing popularity of digital technologies in the banking sector. The website was designed to raise awareness of people in the field of digital banking services.', 'ua', 'finbasecomua-portal', 'project-finbasecomua.jpg', ''),
 (3, '2016-12-29', 'Side Projects', 'These are projects that I create for self-education after or in the process of learning new technologies. You can find all the projects on Github. An example of such a project is BikeCMS - a content management system for bloggers (LAMP stack).', 'ua', 'side-projects-github', 'project-side-github.jpg', ''),
 (4, '2017-07-10', 'Bank.gov.ua Landing Pages', 'The bank needed to strengthen communication of important events. For this purpose, landing pages were created. An example of such a project was the nationalization of Privatbank.', 'ua', 'bankgovua-landing-pages', 'project-bankgovua-landing.jpg', ''),
@@ -81,6 +106,12 @@ ALTER TABLE `home`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `pages`
+--
+ALTER TABLE `pages`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `projects`
 --
 ALTER TABLE `projects`
@@ -95,6 +126,11 @@ ALTER TABLE `projects`
 --
 ALTER TABLE `home`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `pages`
+--
+ALTER TABLE `pages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `projects`
 --

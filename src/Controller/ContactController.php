@@ -12,7 +12,7 @@ class ContactController
 	{
 		$slug = htmlspecialchars( $request->attributes->get('contactSlug'), ENT_QUOTES, 'UTF-8');
 
-		$contactData["content"] = (new Contact)->getMeta();
+		$contactData["meta"] = (new Contact)->getMeta();
 
 		$response = $this->render_template( $request, $contactData );
 

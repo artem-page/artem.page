@@ -14,6 +14,8 @@ class BlogController
 
 		$blogData = Blog::getblog( $slug );
 
+		$blogData["meta"] = (new Blog)->getMeta();
+
 		$response = $this->render_template( $request, $blogData );
 
 		$response->headers->set('Content-Type', 'text/html');

@@ -15,7 +15,8 @@ class ProjectController
 		if (!$slug || $slug == null) 
 		{
 
-			//$projectData["content"] = (new Project)->getProjectsMeta();
+			$projectData["meta"] = (new Project)->getMeta();
+			
 			$projectData["projects"]["all"] = (new Project)->getAllProjects();
 			$projectData["projects"]["ca"] = (new Project)->getProjectsByCountry("ca");
 			$projectData["projects"]["ua"] = (new Project)->getProjectsByCountry("ua");

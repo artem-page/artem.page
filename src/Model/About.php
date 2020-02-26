@@ -23,7 +23,7 @@ class About
 	
 	public function getMeta()
 	{
-		$stmt = $this->connection->prepare("SELECT * FROM " . $this->db_table . " LIMIT 1");
+		$stmt = $this->connection->prepare("SELECT * FROM pages WHERE route = '" . $this->db_table . "'  LIMIT 1");
 		$stmt->execute();
 		$result = $stmt->fetch(PDO::FETCH_ASSOC);
 

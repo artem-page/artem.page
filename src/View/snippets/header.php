@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
 
-    <title><?= $content->title ?></title>
+    <title><?= ($meta->title) ? $meta->title . " - Artem.page" : "Artem.page" ?></title>
 
     <!--Custom CSS -->
     <style type="text/css">
@@ -32,7 +32,7 @@
     </style>
     
     <!-- SEO meta tags -->
-    <meta name="description" content="<?= $content->description ?>">
+    <meta name="description" content="<?= $meta->description ?>">
 
 
   </head>

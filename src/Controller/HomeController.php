@@ -13,7 +13,8 @@ class HomeController
 	{
 		$slug = htmlspecialchars( $request->attributes->get('homeSlug'), ENT_QUOTES, 'UTF-8');
 
-		$homeData["content"] = (new Home)->getHomeMeta();
+		$homeData["meta"] = (new Home)->getMeta();
+
 		$homeData["projects"] = (new Project)->getHomePageProjects();
 
 		$response = $this->render_template( $request, $homeData );

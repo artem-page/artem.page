@@ -14,6 +14,8 @@ class InspirationController
 
 		$inspData = Inspiration::getInspiration( $slug );
 
+		$inspData["meta"] = (new Inspiration)->getMeta();
+
 		$response = $this->render_template( $request, $inspData );
 
 		$response->headers->set('Content-Type', 'text/html');

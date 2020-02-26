@@ -12,7 +12,7 @@ class AboutController
 	{
 		$slug = htmlspecialchars( $request->attributes->get('aboutSlug'), ENT_QUOTES, 'UTF-8');
 
-		$aboutData["content"] = (new About)->getMeta();
+		$aboutData["meta"] = (new About)->getMeta();
 
 		$response = $this->render_template( $request, $aboutData );
 
@@ -33,5 +33,4 @@ class AboutController
 		
 		return new Response(ob_get_clean());
 	}
-
 }
