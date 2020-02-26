@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Feb 26, 2020 at 10:40 AM
+-- Generation Time: Feb 26, 2020 at 11:54 AM
 -- Server version: 5.7.29-0ubuntu0.18.04.1
 -- PHP Version: 7.2.24-0ubuntu0.18.04.3
 
@@ -62,7 +62,8 @@ INSERT INTO `pages` (`id`, `route`, `title`, `description`) VALUES
 (3, 'contact', 'Contact', 'Say hello, I would be happy to hear from you'),
 (4, 'projects', 'Projects', 'The most meaningful digital projects'),
 (5, 'blog', 'Blog', 'My blog where I document and share my observations'),
-(6, 'inspiration', 'Inspiration', 'Things that inspire me, may also inspire you');
+(6, 'inspiration', 'Inspiration', 'Things that inspire me, may also inspire you'),
+(7, 'ican', 'What I can offer', 'I can offer you my experience and knowledge');
 
 -- --------------------------------------------------------
 
@@ -130,7 +131,7 @@ ALTER TABLE `home`
 -- AUTO_INCREMENT for table `pages`
 --
 ALTER TABLE `pages`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `projects`
 --

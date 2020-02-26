@@ -100,4 +100,5 @@
 
 	</div>
 
+<?php include_once 'snippets/pre-footer.php' ?>
 <?php include_once 'snippets/footer.php' ?>

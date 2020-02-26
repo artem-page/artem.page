@@ -3,5 +3,5 @@
 <h1><?= $content->title ?></h1>
 
 
-
+<?php include_once 'snippets/pre-footer.php' ?>
 <?php include_once 'snippets/footer.php' ?>

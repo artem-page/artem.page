@@ -16,6 +16,12 @@ $routes->add('about', new Routing\Route('/about', [
 
 ]));
 
+$routes->add('ican', new Routing\Route('/what-i-can-offer', [
+	
+	'_controller' => 'App\Controller\ICanController::index'
+
+]));
+
 $routes->add('contact', new Routing\Route('/contact', [
 	
 	'_controller' => 'App\Controller\ContactController::index'

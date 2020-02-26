@@ -1,4 +1,4 @@
-	<footer class="bg-dark">
+	<footer class="bg-dark pb-3">
 
 		<div class="container">
 

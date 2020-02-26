@@ -10,7 +10,7 @@
 					
 				<h1 class="h6 pt-4 text-uppercase font-weight-bolder text-secondary">About myself</h1>
 
-				<h1 class="font-weight-bold pb-4">Helping people and brands to navigate the digital age</h1>
+				<h1 class="font-weight-bold pb-4">Helping people and brands bring digital projects to life</h1>
 
 			</div>
 
@@ -234,4 +234,5 @@
 
 	</div>
 
+<?php include_once 'snippets/pre-footer.php' ?>
 <?php include_once 'snippets/footer.php' ?>
