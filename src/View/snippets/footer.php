@@ -37,7 +37,7 @@
 
 				<div class="col-md-8">
 
-					<p class="text-white">Building a better digital future for people and businesses by creating user interfaces and software for the internet.</p>
+					<p class="text-white">I build a better digital future for people and businesses by leveraging my design, technology and project management knowledge.</p>
 
 				</div>
 
