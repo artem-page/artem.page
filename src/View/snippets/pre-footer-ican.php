@@ -16,6 +16,7 @@
 					
 				<a role="button" class="btn btn-light m-3 p-3 rounded-0 text-uppercase font-weight-bold" href="/contact">Contact me</a> 
 				<a role="button" class="btn btn-outline-light m-3 p-3 rounded-0 text-uppercase font-weight-bold" href="/docs/artem_page.pdf">Download my resume</a>
+				<a role="button" class="btn btn-outline-light m-3 p-3 rounded-0 text-uppercase font-weight-bold" href="https://linkedin.com/in/rumiantsev" target="_blank">View my Linkedin</a>
 
 			</div>
 
