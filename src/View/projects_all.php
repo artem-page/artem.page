@@ -5,12 +5,12 @@
 	<div class="container p-md-0">
 
 		<div class="row pt-5 pb-5 m-0">
-			
+
 			<div class="col-md-12 text-left">
-					
+
 				<h1 class="projects-font">Projects</h1>
 
-				<p class="font-weight-bold">The most meaningful digital projects</p>
+				<p class="font-weight-bold">Featured digital projects</p>
 
 			</div>
 
@@ -57,7 +57,7 @@
 				      	<small class="text-muted">
 							<a href="/projects/<?= $p["slug"] ?>" class="text-danger text-decoration-none p-0 m-0 font-weight-normal">
 								Read More <i class="fas fa-arrow-right pl-2"></i>
-							</a>	
+							</a>
 				      	</small>
 				      </p>
 				    </div>
@@ -88,7 +88,7 @@
 				      	<small class="text-muted">
 							<a href="/projects/<?= $p["slug"] ?>" class="text-danger text-decoration-none p-0 m-0 font-weight-normal">
 								Read More <i class="fas fa-arrow-right pl-2"></i>
-							</a>	
+							</a>
 				      	</small>
 				      </p>
 				    </div>
@@ -119,7 +119,7 @@
 				      	<small class="text-muted">
 							<a href="/projects/<?= $p["slug"] ?>" class="text-danger text-decoration-none p-0 m-0 font-weight-normal">
 								Read More <i class="fas fa-arrow-right pl-2"></i>
-							</a>	
+							</a>
 				      	</small>
 				      </p>
 				    </div>
