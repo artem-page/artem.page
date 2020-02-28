@@ -112,3 +112,8 @@
 	.fa-canadian-maple-leaf {
 		color: #FF0000;
 	}
+
+	.card:hover > .card-img-top {
+    	transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+	}

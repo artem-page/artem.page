@@ -15,6 +15,7 @@ class Project
 	public $id;
 	public $title;
 	public $description;
+	public $text_html;
 	public $slug;
 	public $img_thumb;
 	public $img_cover;
@@ -49,6 +50,7 @@ class Project
 		$this->id = $result["id"];
 		$this->title = $result["title"];
 		$this->description = $result["description"];
+		$this->text_html = $result["text_html"];
 		$this->img_thumb = $result["img_thumb"];
 		$this->img_cover = $result["img_cover"];
 

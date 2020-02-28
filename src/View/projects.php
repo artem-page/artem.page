@@ -30,6 +30,8 @@
 
 </div>
 
+<?= $content->text_html ?>
+
 <!--
 <pre>
 <?php
