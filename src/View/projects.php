@@ -10,7 +10,7 @@
 
 			<h1 class="font-weight-bold text-center"><?= $content->title ?></h1>
 
-			<p class="h5 text-secondary text-center"><?= $content->description ?></p>
+			<p class="h5 text-secondary text-center article-description"><?= $content->description ?></p>
 
 		</div>
 
@@ -30,7 +30,9 @@
 
 </div>
 
-<?= $content->text_html ?>
+<div class="p-0 m-0 article-content">
+	<?= $content->text_html ?>
+</div>
 
 <!--
 <pre>

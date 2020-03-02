@@ -23,7 +23,7 @@
 	    left: 0;
 	    right: 0;
 	    display: flex;
-	    overflow: hidden;
+	    overflow-y: auto;
 	}
 
 	.search-container {
@@ -116,4 +116,12 @@
 	.card:hover > .card-img-top {
     	transform: scale(1.05);
         transition: all 0.3s ease-in-out;
+	}
+
+	.article-content,  .article-description {
+		font-size: 1.15rem;
+		font-weight: 400;
+  		font-style: normal;
+  		font-stretch: normal;
+  		line-height: 1.78;
 	}
