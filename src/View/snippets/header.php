@@ -20,7 +20,9 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
 
-    <title><?= ($meta->title) ? $meta->title . " - Artem.page" : "Artem.page" ?></title>
+    <title>
+        <?= ($meta->title) ? $meta->title . " - Artem.page" : ( ($content->title) ? $content->title . " - Artem.page" : "Artem.page" ) ?>
+    </title>
 
     <!--Custom CSS -->
     <style type="text/css">

@@ -10,7 +10,7 @@
 
 			<h1 class="font-weight-bold text-center"><?= $content->title ?></h1>
 
-			<p class="h5 text-secondary text-center article-description"><?= $content->description ?></p>
+			<p class="h5 pt-3 text-secondary text-center article-description"><?= $content->description ?></p>
 
 		</div>
 

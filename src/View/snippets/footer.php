@@ -56,7 +56,9 @@
 		      			<span class="pr-2 align-middle">
 		      				<a href="https://instagram.com/artem.page" rel="noopener" target="_blank" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
 		      			</span>
-
+		      			<span class="pr-2 align-middle">
+		      				<a href="https://www.youtube.com/channel/UCRihv4lcxXDd01vUukIFp5w" rel="noopener" target="_blank" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+		      			</span>
 		      		</p>
 
 				</div>
