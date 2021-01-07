@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DB;
+namespace App\Model;
 
 class Database
 {
@@ -9,7 +9,7 @@ class Database
 	private static $username = "user";
 	private static $password = "password";
 	protected static $connection;
-	
+
 	public static function getConnection()
 	{
 		self::$connection = null;

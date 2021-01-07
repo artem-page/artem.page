@@ -3,7 +3,7 @@
 namespace App\Model;
 
 use PDO;
-use App\DB\Database;
+use App\Model\Database;
 
 class Project
 {
@@ -38,7 +38,7 @@ class Project
 
 		return $this;
 	}
-	
+
 	public function getProjectBySlug($slug)
 	{
 		$this->slug = $slug;

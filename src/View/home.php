@@ -5,27 +5,27 @@
 	<div class="container-fluid p-0 m-0">
 
 		<div class="card p-0 m-0 border-0 rounded-0">
-			
+
 			<div class="row no-gutters text-cover">
-				
+
 				<div class="col-md-6">
-					
+
 					<img src="/images/cover.jpg" class="card-img card-img-cover rounded-0" alt="">
-				
+
 				</div>
-				
+
 				<div class="col-md-6 pl-sm-2 pt-sm-2 pl-md-2 pt-md-2 pl-lg-4 pt-lg-4 pt-xl-4 my-auto">
-					
+
 					<div class="card-body pt-sm-2 pt-md-2 pt-lg-3 pt-xl-3">
 
 						<div class="p-xl-5">
-						
-							<h1 class="card-title font-weight-bold">Hello.</h1>
-								
+
+							<h1 class="card-title font-weight-bold">Hello,</h1>
+
 							<h4 class="card-text text-secondary text-front font-weight-normal pt-xs-1 pt-sm-1 pt-md-1 pt-lg-2 pt-xl-2">
-								I'm Artem Rumiantsev, a full-stack web developer and a project coordinator. I work at the intersection of business, design and technology. 
+								I'm Artem Rumiantsev, a full-stack web developer, a cloud systems administrator and a project coordinator. I work at the intersection of business, design and technology.
 							</h4>
-								
+
 							<p class="card-text pt-xs-1 pt-sm-1 pt-md-1 pt-lg-2 pt-xl-2">
 								<small class="text-muted">
 									<a href="/about" class="text-danger text-decoration-none p-0 m-0 font-weight-normal">
@@ -35,9 +35,9 @@
 							</p>
 
 						</div>
-					
+
 					</div>
-		    	
+
 		    	</div>
 
 			</div>
@@ -88,7 +88,7 @@
 		      	<small class="text-muted">
 					<a href="/projects/<?= $p["slug"] ?>" class="text-danger text-decoration-none p-0 m-0 font-weight-normal stretched-link">
 						Read More <i class="fas fa-arrow-right pl-2"></i>
-					</a>	
+					</a>
 		      	</small>
 		      </p>
 		    </div>

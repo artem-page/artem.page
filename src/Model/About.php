@@ -3,7 +3,7 @@
 namespace App\Model;
 
 use PDO;
-use App\DB\Database;
+use App\Model\Database;
 
 class About
 {
@@ -15,12 +15,12 @@ class About
 	public $id;
 	public $title;
 	public $description;
-	
+
 	function __construct()
 	{
 		$this->connection = Database::getConnection();
 	}
-	
+
 	public function getMeta()
 	{
 		$stmt = $this->connection->prepare("SELECT * FROM pages WHERE route = '" . $this->db_table . "'  LIMIT 1");
